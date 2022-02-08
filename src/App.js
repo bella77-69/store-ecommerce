@@ -1,6 +1,6 @@
 import logo from "./logo.png";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.scss";
+import { Switch, Route } from "react-router-dom";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import Navbar from "./components/Navbar";
@@ -8,11 +8,12 @@ import ProductList from "./components/ProductList";
 import Details from "./components/Details";
 import Default from "./components/Default";
 import Cart from "./components/Cart";
+import { Component } from "react";
 
-function App() {
-  return (
-    <React.Fragment>
-      <Router>
+class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
         <Navbar />
         <Switch>
           <Route path="/" exact component={ProductList} />
@@ -20,9 +21,8 @@ function App() {
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
         </Switch>
-      </Router>
-    </React.Fragment>
-  );
+      </React.Fragment>
+    );
+  }
 }
-
 export default App;
