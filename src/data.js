@@ -110,3 +110,15 @@ export const storeProducts = [
     total: 0 
 }
 ];
+
+export const detailProduct = {
+    id: 1,
+    title: "Google Pixel - Black",
+    img: "img/product-1.jpg",
+    price: 10,
+    company: "GOOGLE",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
+    inCart: false,
+    count: 0,
+    total: 0
+};
