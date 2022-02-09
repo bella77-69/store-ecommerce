@@ -18,8 +18,8 @@ export const storeProducts = [
       company: "SAMSUNG",
       info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
       inCart: false,
-      count: 15,
-      total: 15
+      count: 0,
+      total: 0
     },
   {
     id: 3,
@@ -40,8 +40,8 @@ export const storeProducts = [
     company: "Apple",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
     inCart: false,
-    count: 10,
-    total: 10
+    count: 0,
+    total: 0
 },
 {
     id: 5,
@@ -51,8 +51,8 @@ export const storeProducts = [
     company: "Apple",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
     inCart: false,
-    count: 10,
-    total: 10 
+    count: 0,
+    total: 0 
 },
 {
     id: 6,
@@ -62,8 +62,8 @@ export const storeProducts = [
     company: "GOOGLE",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
     inCart: false,
-    count: 8,
-    total: 8 
+    count: 0,
+    total: 0 
 },
 {
     id: 7,
@@ -73,8 +73,8 @@ export const storeProducts = [
     company: "APPLE",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
     inCart: false,
-    count: 5,
-    total: 5 
+    count: 0,
+    total: 0 
 },
 {
     id: 8,
@@ -95,8 +95,8 @@ export const storeProducts = [
     company: "SAMSUNG",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
     inCart: false,
-    count: 9,
-    total: 9 
+    count:0,
+    total: 0 
 },
 {
     id: 10,
