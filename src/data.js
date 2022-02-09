@@ -17,7 +17,7 @@ export const storeProducts = [
       price: 16,
       company: "SAMSUNG",
       info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
-      inCart: true,
+      inCart: false,
       count: 15,
       total: 15
     },
@@ -39,7 +39,7 @@ export const storeProducts = [
     price: 36,
     company: "Apple",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
-    inCart: true,
+    inCart: false,
     count: 10,
     total: 10
 },
@@ -50,7 +50,7 @@ export const storeProducts = [
     price: 56,
     company: "Apple",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
-    inCart: true,
+    inCart: false,
     count: 10,
     total: 10 
 },
@@ -61,7 +61,7 @@ export const storeProducts = [
     price: 50,
     company: "GOOGLE",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
-    inCart: true,
+    inCart: false,
     count: 8,
     total: 8 
 },
@@ -72,7 +72,7 @@ export const storeProducts = [
     price: 60,
     company: "APPLE",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
-    inCart: true,
+    inCart: false,
     count: 5,
     total: 5 
 },
@@ -83,7 +83,7 @@ export const storeProducts = [
     price: 50,
     company: "SAMSUNG",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
-    inCart: true,
+    inCart: false,
     count: 9,
     total: 9 
 },
@@ -94,7 +94,7 @@ export const storeProducts = [
     price: 50,
     company: "SAMSUNG",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modfasf dsafdasdfsa sdfasf sdfasdf et wsdgsag gsg ahsdgsadg ashaghsdgcbdfber rtdgdg",
-    inCart: true,
+    inCart: false,
     count: 9,
     total: 9 
 },
