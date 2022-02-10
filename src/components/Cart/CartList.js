@@ -1,13 +1,14 @@
-import React from 'react';
-import CartItem from './CartItem';
+import React from "react";
+import CartItem from "./CartItem";
 
-function CartList() {
-    return (
-        <div>
-            Hello from cart list
-            <CartItem />
-        </div>
-    );
+export default function CartList({ value }) {
+  const { cart } = value;
+  console.log(value, cart);
+  return (
+    <div className="container-fluid">
+      {cart.map((items) => {
+        return <CartItem key={items.id} item={items} value={value} />;
+      })}
+    </div>
+  );
 }
-
-export default CartList;
