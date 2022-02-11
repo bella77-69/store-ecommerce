@@ -22,13 +22,13 @@ class ProductProvider extends Component {
   }
   
   setProducts = () => {
-    let products = [];
+    let tempProducts = [];
     storeProducts.forEach((item) => {
       const singleItem = { ...item };
-      products = [...products, singleItem];
+      tempProducts = [...tempProducts, singleItem];
     });
     this.setState(() => {
-      return { products };
+      return { products: tempProducts };
     });
   };
 
